@@ -1105,7 +1105,7 @@ transform-style: preserve-3d;
 #scrollDown {
   position: absolute;
   top: 90%;
-  left: 50%;
+  left: 50.5%;
   transform: translate(-50%,-0%);
   width: 5em;
   height: 5em;
@@ -1116,7 +1116,7 @@ transform-style: preserve-3d;
 }
 .down a {
   position: absolute;
-  left: 1em;
+  left: 0%;
   z-index: 2;
   display: inline-block;
   -webkit-transform: translate(0, -50%);
@@ -1179,12 +1179,11 @@ opacity: 0;
 
 /* slide text */
 #text{
-  width: 90%;
+  width: 85%;
   height: 50%;
   position: absolute;
   top: 35%;
-  left: 5%;
-  text-align: center;
+  left: 7.5%;
   /* background: #000; */
 }
 .fade01{
@@ -1216,6 +1215,7 @@ opacity: 0;
 #text h1{
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 2em;
+  text-align: center;
   font-weight: lighter;
   color:#222328;
   letter-spacing: 0.1em;
@@ -1225,6 +1225,7 @@ opacity: 0;
 }
 #text h2{
   font-size: 5em;
+  text-align: center;
   color:#222328;
   font-family: 'Cormorant Infant', serif;
   letter-spacing: 0.1em;

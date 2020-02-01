@@ -74,7 +74,7 @@ $(window).scroll(function(){
   }
 
   // world back-image
-  if($(document).scrollTop()>=1874){
+  if($(document).scrollTop()==1874){
       $('.world-back01').addClass('world-back01-move');
       $('.wcont01').addClass('wcont01-move');
       $('#wtop').addClass('wtopline');
@@ -140,8 +140,7 @@ $('#scrollDown a span').css('border-left','1px solid #ccc').css('border-bottom',
   $('#scrollDown a span').css('border-left','1px solid #000').css('border-bottom','1px solid #000');
 }
 
-// #news li back-o
-if($(document).scrollTop()>=2811){
+if($(document).scrollTop()==2811){
 $('.cs-list li').each(function(eq){
   var lio=$(this);
   setTimeout(function(){
